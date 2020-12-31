@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TamplateComponent } from './pages/tamplate/tamplate.component';
 import { ReactiveComponent } from './pages/reactive/reactive.component';
+import { FormsModule } from '@angular/forms';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { ReactiveComponent } from './pages/reactive/reactive.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
