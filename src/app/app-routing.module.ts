@@ -6,7 +6,7 @@ import { TamplateComponent } from './pages/tamplate/tamplate.component';
 const routes: Routes = [
   {path: 'template' , component: TamplateComponent},
   {path: 'reactivo', component: ReactiveComponent},
-  {path: '**', pathMatch: 'full', redirectTo: 'template'}
+  {path: '**', pathMatch: 'full', redirectTo: 'reactivo'}
 ];
 
 @NgModule({
